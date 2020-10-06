@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Recource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectOverlay.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1_1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1_1helper.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1_2.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1_2helper.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1effectauthor.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1effecthelpers.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1effects.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1effects_1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2d1helper.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2dbasetypes.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d2derr.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d8.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d8caps.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d8types.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d9.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d9caps.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d9types.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10_1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10_1shader.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10effect.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10misc.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10sdklayers.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d10shader.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11_1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11_2.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11_3.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11_4.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11sdklayers.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11shader.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d11shadertracing.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d12.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d12sdklayers.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3d12shader.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dcaps.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dcommon.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dcompiler.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dcsx.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dtypes.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9anim.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9core.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9effect.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9math.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9mesh.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9shader.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9shape.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9tex.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx9xof.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10async.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10core.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10math.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10mesh.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx10tex.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx11.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx11async.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx11core.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\d3dx11tex.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dcommon.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dcomp.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dcompanimation.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dcomptypes.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ddraw.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dwrite.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dwrite_1.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dwrite_2.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi1_2.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi1_3.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi1_4.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi1_5.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgi1_6.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgicommon.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgidebug.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgiformat.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxgitype.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\dxva2api.h">
+      <Filter>Headers Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\d3dvec.inl">
+      <Filter>Headers Files</Filter>
+    </None>
+    <None Include="Include\d3dx_dxgiformatconvert.inl">
+      <Filter>Headers Files</Filter>
+    </None>
+    <None Include="Include\d3dx9math.inl">
+      <Filter>Headers Files</Filter>
+    </None>
+    <None Include="Include\d3dx10math.inl">
+      <Filter>Headers Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

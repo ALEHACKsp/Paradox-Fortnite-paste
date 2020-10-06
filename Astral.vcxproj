@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{28221CAB-48DA-4641-A607-4C08CCDD8B3C}</ProjectGuid>
+    <RootNamespace>Astral</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>Paradox Fn Cheat</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Elysium\Desktop\Elysium Fn Cheat\Astral\lib;C:\Users\Elysium\Desktop\Elysium Fn Cheat\Astral\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Elysium\Desktop\Elysium Fn Cheat\Astral\Include;C:\Users\Elysium\Desktop\Elysium Fn Cheat\Astral\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\Nigger\Documents\Source\Paradox Fn Cheat\Paradox Fn Cheat\Astral\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Nigger\Documents\Source\Paradox Fn Cheat\Paradox Fn Cheat\Astral\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\USB\spoofer sources\Elysium\Elysium Fn Cheat\Astral\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\USB\spoofer sources\Elysium\Elysium Fn Cheat\Astral\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectOverlay.h" />
+    <ClInclude Include="Include\d2d1.h" />
+    <ClInclude Include="Include\d2d1effectauthor.h" />
+    <ClInclude Include="Include\d2d1effecthelpers.h" />
+    <ClInclude Include="Include\d2d1effects.h" />
+    <ClInclude Include="Include\d2d1effects_1.h" />
+    <ClInclude Include="Include\d2d1helper.h" />
+    <ClInclude Include="Include\d2d1_1.h" />
+    <ClInclude Include="Include\d2d1_1helper.h" />
+    <ClInclude Include="Include\d2d1_2.h" />
+    <ClInclude Include="Include\d2d1_2helper.h" />
+    <ClInclude Include="Include\d2dbasetypes.h" />
+    <ClInclude Include="Include\d2derr.h" />
+    <ClInclude Include="Include\d3d.h" />
+    <ClInclude Include="Include\d3d10.h" />
+    <ClInclude Include="Include\d3d10effect.h" />
+    <ClInclude Include="Include\d3d10misc.h" />
+    <ClInclude Include="Include\d3d10sdklayers.h" />
+    <ClInclude Include="Include\d3d10shader.h" />
+    <ClInclude Include="Include\d3d10_1.h" />
+    <ClInclude Include="Include\d3d10_1shader.h" />
+    <ClInclude Include="Include\d3d11.h" />
+    <ClInclude Include="Include\d3d11sdklayers.h" />
+    <ClInclude Include="Include\d3d11shader.h" />
+    <ClInclude Include="Include\d3d11shadertracing.h" />
+    <ClInclude Include="Include\d3d11_1.h" />
+    <ClInclude Include="Include\d3d11_2.h" />
+    <ClInclude Include="Include\d3d11_3.h" />
+    <ClInclude Include="Include\d3d11_4.h" />
+    <ClInclude Include="Include\d3d12.h" />
+    <ClInclude Include="Include\d3d12sdklayers.h" />
+    <ClInclude Include="Include\d3d12shader.h" />
+    <ClInclude Include="Include\d3d8.h" />
+    <ClInclude Include="Include\d3d8caps.h" />
+    <ClInclude Include="Include\d3d8types.h" />
+    <ClInclude Include="Include\d3d9.h" />
+    <ClInclude Include="Include\d3d9caps.h" />
+    <ClInclude Include="Include\d3d9types.h" />
+    <ClInclude Include="Include\d3dcaps.h" />
+    <ClInclude Include="Include\d3dcommon.h" />
+    <ClInclude Include="Include\d3dcompiler.h" />
+    <ClInclude Include="Include\d3dcsx.h" />
+    <ClInclude Include="Include\d3dtypes.h" />
+    <ClInclude Include="Include\d3dx10.h" />
+    <ClInclude Include="Include\d3dx10async.h" />
+    <ClInclude Include="Include\d3dx10core.h" />
+    <ClInclude Include="Include\d3dx10math.h" />
+    <ClInclude Include="Include\d3dx10mesh.h" />
+    <ClInclude Include="Include\d3dx10tex.h" />
+    <ClInclude Include="Include\d3dx11.h" />
+    <ClInclude Include="Include\d3dx11async.h" />
+    <ClInclude Include="Include\d3dx11core.h" />
+    <ClInclude Include="Include\d3dx11tex.h" />
+    <ClInclude Include="Include\d3dx9.h" />
+    <ClInclude Include="Include\d3dx9anim.h" />
+    <ClInclude Include="Include\d3dx9core.h" />
+    <ClInclude Include="Include\d3dx9effect.h" />
+    <ClInclude Include="Include\d3dx9math.h" />
+    <ClInclude Include="Include\d3dx9mesh.h" />
+    <ClInclude Include="Include\d3dx9shader.h" />
+    <ClInclude Include="Include\d3dx9shape.h" />
+    <ClInclude Include="Include\d3dx9tex.h" />
+    <ClInclude Include="Include\d3dx9xof.h" />
+    <ClInclude Include="Include\dcommon.h" />
+    <ClInclude Include="Include\dcomp.h" />
+    <ClInclude Include="Include\dcompanimation.h" />
+    <ClInclude Include="Include\dcomptypes.h" />
+    <ClInclude Include="Include\ddraw.h" />
+    <ClInclude Include="Include\dwrite.h" />
+    <ClInclude Include="Include\dwrite_1.h" />
+    <ClInclude Include="Include\dwrite_2.h" />
+    <ClInclude Include="Include\dxgi.h" />
+    <ClInclude Include="Include\dxgi1_2.h" />
+    <ClInclude Include="Include\dxgi1_3.h" />
+    <ClInclude Include="Include\dxgi1_4.h" />
+    <ClInclude Include="Include\dxgi1_5.h" />
+    <ClInclude Include="Include\dxgi1_6.h" />
+    <ClInclude Include="Include\dxgicommon.h" />
+    <ClInclude Include="Include\dxgidebug.h" />
+    <ClInclude Include="Include\dxgiformat.h" />
+    <ClInclude Include="Include\dxgitype.h" />
+    <ClInclude Include="Include\dxva2api.h" />
+    <ClInclude Include="xor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\d3dvec.inl" />
+    <None Include="Include\d3dx10math.inl" />
+    <None Include="Include\d3dx9math.inl" />
+    <None Include="Include\d3dx_dxgiformatconvert.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
